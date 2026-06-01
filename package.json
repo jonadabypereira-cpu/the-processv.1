@@ -1,0 +1,10 @@
+{
+  "name": "meu-projeto-root",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"cd godi-backend && node index.js\" \"cd godi-frontend && npm run dev -- --host\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
